@@ -1,0 +1,73 @@
+$text-color : white;
+
+body{
+  margin: 0;
+}
+main {
+  padding-top : 3.4rem;
+}
+.top {
+  .jumbotron {
+    margin-bottom: 0;
+    background-image: url(/images/bg.JPG);
+    background-size: cover;
+    background-position: 70%;
+    height: 800px;
+    color: $text-color;
+  }
+}
+.header-list {
+  color: $text-color;
+  li {
+    list-style: none;
+    float: right;
+    padding: 33px 20px;
+    color: $text-color;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.header-link{
+  color: $text-color;
+}
+
+.header-logo{
+  color: white;
+  font-size: 36px;
+  float: left;
+  padding: 20px 40px;
+}
+
+.signup{
+  background-color: #239b76;
+}
+.login{
+  background-color: #3b5998;
+}
+.maker{
+  background-color: #55acee;
+}
+
+footer{
+  background-color: #2d3133;
+  height: 40px;
+  color: $text-color;
+
+}
+.footer-text{
+  text-align: center;
+  padding-top: 10px;
+}
+.maker-list {
+  .contents-item{
+    display: inline-block;
+    text-align: center;
+  }
+  .contents-item img{
+    height: 200px;
+    width: 200px;
+  }
+}
