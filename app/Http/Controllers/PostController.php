@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
-use App\shoes;
+use App\Shoes;
 use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
