@@ -15,7 +15,7 @@ class Shoes extends Model
 
     public function getOneOfThumbnails()
     {
-        $t = Thumbnail::find($this->thumbnail_id);
+        $t = $this->hasOne('App\Thumbnail')->get()->first();
         if ($t) {
           return $t->image_id;
         } else {
